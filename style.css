@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.smash {
+    background: #ff2d55;
+    color: white;
+}
+
+.pass {
+    background: #555;
+    color: white;
+}
